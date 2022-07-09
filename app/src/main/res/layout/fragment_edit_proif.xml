@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/loginSignUpScreenBackground"
+    tools:context=".ui.main.fragments.EditProifFragment">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/backToProfile"
+        app:backgroundTint="@color/black"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="@color/buttonColors"
+        android:src="@drawable/ic_baseline_arrow_back_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:fontFamily="@font/lato_bold"
+        android:text="E d i t"
+        android:textColor="@color/white"
+        android:textSize="45sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/backToProfile" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/editProfileImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/ic_baseline_account_circle_24"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/backToProfile" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/nameEdit"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:fontFamily="@font/lato_light"
+        android:padding="16dp"
+        android:hint="Name"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editProfileImage" />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_bold"
+        app:layout_constraintStart_toStartOf="@id/numberEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editProfileImage"
+
+        />
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Mobile Number"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_bold"
+        app:layout_constraintStart_toStartOf="@id/nameEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameEdit"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/numberEdit"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:fontFamily="@font/lato_light"
+        android:padding="16dp"
+        android:hint="Mobile Number"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/nameEdit" />
+
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Date of birth"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:fontFamily="@font/lato_bold"
+        app:layout_constraintStart_toStartOf="@id/numberEdit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/numberEdit"
+        />
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/dateEdit"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/white"
+        android:fontFamily="@font/lato_light"
+        android:padding="16dp"
+        android:hint="Date of birth"
+        android:textColorHint="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/numberEdit" />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/loginButton"
+        android:layout_width="336dp"
+        android:layout_height="55dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="@color/buttonColors"
+        android:layout_marginTop="120dp"
+        android:text="save"
+        app:layout_constraintTop_toBottomOf="@id/numberEdit"
+        />
+</androidx.constraintlayout.widget.ConstraintLayout>

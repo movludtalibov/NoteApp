@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "729325377195",
+    "project_id": "mynoteappmatrix",
+    "storage_bucket": "mynoteappmatrix.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729325377195:android:5d77b309744319acbd49ee",
+        "android_client_info": {
+          "package_name": "com.example.movlud.talibov.matrix.mynoteappmatrix"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729325377195-cdac34lqol98le4hve6de382gtk8g8rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU1SYBl_6XiCVMfr5DTTJmbEiF0c0AUfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729325377195-cdac34lqol98le4hve6de382gtk8g8rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:729325377195:android:2dcba3acd85d0c44bd49ee",
+        "android_client_info": {
+          "package_name": "com.example.movlud.talibov.matrix.noteapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "729325377195-cdac34lqol98le4hve6de382gtk8g8rn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU1SYBl_6XiCVMfr5DTTJmbEiF0c0AUfo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "729325377195-cdac34lqol98le4hve6de382gtk8g8rn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
